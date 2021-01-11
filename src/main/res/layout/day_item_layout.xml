@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    app:cardCornerRadius="8dp"
+    android:elevation="5dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants">
+
+        <com.smproductions.schema.Utils.LetterImageView
+            android:id="@+id/dayItem_courseLogo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_margin="10dp"/>
+
+
+        <TextView
+            android:id="@+id/dayItem_courseTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf_medium"
+            android:text="IC103 Materials Chemistry"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/blackish"
+            android:layout_toRightOf="@+id/dayItem_courseLogo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/dayItem_courseTiming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2:30 PM - 3:50 PM"
+            android:textSize="18sp"
+            android:textColor="#657786"
+            android:fontFamily="@font/sf_medium"
+            android:layout_toRightOf="@id/dayItem_courseLogo"
+            android:layout_below="@id/dayItem_courseTitle"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/dayItem_courseDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18 Dec - 8 Jan"
+            android:textSize="16sp"
+            android:textColor="@color/light_gray"
+            android:fontFamily="@font/sf_medium"
+            android:layout_below="@id/dayItem_courseTiming"
+            android:layout_toRightOf="@id/dayItem_courseLogo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

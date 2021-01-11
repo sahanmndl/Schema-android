@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/whitish"
+    tools:context=".DaydetailsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/dayDetailsToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="?android:attr/windowBackground"
+        app:titleTextAppearance="@style/ToolbarTitleTheme2"
+        android:elevation="4dp">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/dayDetails_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/dayDetailsToolbar"
+        android:background="@color/whitish"
+        android:dividerHeight="10dp"
+        android:layout_margin="8dp"
+        android:divider="@null">
+
+    </ListView>
+
+</RelativeLayout>

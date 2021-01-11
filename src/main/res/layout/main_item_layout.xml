@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    app:cardCornerRadius="8dp"
+    android:elevation="5dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants">
+
+        <ImageView
+            android:id="@+id/mainItem_imageView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/mainItem_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sf_medium"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/blackish"
+            android:layout_toRightOf="@+id/mainItem_imageView"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"/>
+
+        <TextView
+            android:id="@+id/mainItem_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_toRightOf="@+id/mainItem_imageView"
+            android:layout_below="@+id/mainItem_title"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="8dp"/>
+
+        <ImageView
+            android:id="@+id/mainItem_btnClick"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_arrow"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/mainItem_description"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="4dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
