@@ -68,7 +68,7 @@
         <item>LA310 History of Medicine and Surgery</item>
     </string-array>
     <string-array name="Sunday">
-        <item>IC069 CHILL!!</item>
+        <item>IC420 CHILL!!</item>
     </string-array>
 
     <string-array name="MondayDates">
@@ -120,7 +120,7 @@
     </string-array>
     <string-array name="TuesdayTimings">
         <item>10 AM - 11:20 AM</item>
-        <item>2:30 PM - 3:50 PM</item>
+        <item>11:30 AM - 12:50 AM</item>
         <item>4 PM - 5:20 PM</item>
     </string-array>
     <string-array name="WednesdayTimings">
@@ -133,7 +133,7 @@
     <string-array name="ThursdayTimings">
         <item>8:30 AM - 9:50 AM</item>
         <item>10 AM - 11:20 AM</item>
-        <item>2:30 PM - 3:50 PM</item>
+        <item>11:30 AM - 12:50 AM</item>
         <item>4 PM - 5:20 PM</item>
     </string-array>
     <string-array name="FridayTimings">
@@ -146,7 +146,7 @@
     <string-array name="SaturdayTimings">
         <item>8:30 AM - 9:50 AM</item>
         <item>10 AM - 11:20 AM</item>
-        <item>2:30 PM - 3:50 PM</item>
+        <item>11:30 AM - 12:50 AM</item>
         <item>4 PM - 5:20 PM</item>
     </string-array>
     <string-array name="SundayTimings">
