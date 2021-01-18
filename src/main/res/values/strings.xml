@@ -2,6 +2,8 @@
     <string name="app_name">Schema</string>
     <string name="reference_books">Reference Books</string>
     <string name="schema_v1_1">Schema v1.1</string>
+    <string name="made_by_sahan_mondal">MADE BY SAHAN MONDAL</string>
+    <string name="todo">TODO</string>
 
 
     //Contents of the app starts from here
@@ -9,15 +11,11 @@
     <string-array name="Main">
         <item> Schedule </item>
         <item> Subjects </item>
-        <item> Faculty </item>
-        <item> Resources </item>
     </string-array>
 
     <string-array name="Description">
         <item> Timetable of courses with their duration and timings </item>
         <item> Detailed list of all courses present in the current semester </item>
-        <item> List of all concerned faculties with their contact details </item>
-        <item> Download books, tutorial sheets etc. </item>
     </string-array>
 
     <string-array name="Week">

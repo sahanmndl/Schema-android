@@ -8,16 +8,30 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:src="@drawable/schema"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/todo" />
 
     <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/schema_v1_1"
+        android:fontFamily="@font/sf_medium"
+        android:layout_marginBottom="4dp"
+        android:textSize="16sp"
+        android:textColor="@color/blackish"
+        android:layout_above="@+id/name"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="@string/schema_v1_1"
+        android:text="@string/made_by_sahan_mondal"
         android:fontFamily="@font/sf_medium"
-        android:textSize="15sp"
-        android:textColor="@color/blackish"
+        android:textSize="12sp"
+        android:textColor="#657786"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"/>
 
